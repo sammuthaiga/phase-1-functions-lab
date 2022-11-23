@@ -29,7 +29,7 @@ function distanceTravelledInFeet(blocka, blockb) {
 
 function calculatesFarePrice(start, destination) {
     let travelled = distanceTravelledInFeet(start, destination);
-    console.log(travelled);
+  /*   console.log(travelled); */
     if (travelled <= 400) {
         return 0;
     } else if(travelled > 400 && travelled < 2000){
